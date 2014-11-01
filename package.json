@@ -1,0 +1,26 @@
+{
+  "name": "requestp",
+  "description": "A promise based version of request.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": "https://github.com/pdehaan/requestp/issues",
+  "dependencies": {
+    "promise": "6.0.1",
+    "request": "2.47.0"
+  },
+  "devDependencies": {
+    "eslint": "0.9.1"
+  },
+  "homepage": "https://github.com/pdehaan/requestp",
+  "keywords": [
+    "request",
+    "promise"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": "pdehaan/requestp",
+  "scripts": {
+    "start": "node index",
+    "test": "eslint ."
+  }
+}
